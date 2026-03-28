@@ -782,8 +782,7 @@
             box-shadow: 0 0 20px rgba(0, 212, 255, 0.6);
             transform: scale(1.1);
         }
-
-        /* Light Mode Styles */
+        
         body.light-mode {
             background: #f5f5f7;
             color: #1d1d1f;
@@ -856,7 +855,6 @@
             color: #fff;
         }
 
-        /* Scroll Progress Bar */
         #progress-bar {
             position: fixed;
             top: 0;
@@ -1250,24 +1248,20 @@
             document.getElementById('progress-bar').style.width = scrolledPercent + '%';
         });
 
-        // Accordion Functionality
         document.querySelectorAll('.project-header').forEach(header => {
             header.addEventListener('click', () => {
                 const projectItem = header.parentElement;
                 
-                // Close other items
                 document.querySelectorAll('.project-item.active').forEach(item => {
                     if (item !== projectItem) {
                         item.classList.remove('active');
                     }
                 });
-                
-                // Toggle current item
+
                 projectItem.classList.toggle('active');
             });
         });
 
-        // Smooth scrolling for internal anchors
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
@@ -1278,7 +1272,6 @@
             });
         });
 
-        // 3D Wireframe Globe
         function initGlobe() {
             const canvas = document.getElementById('globe');
             const ctx = canvas.getContext('2d');
@@ -1345,13 +1338,13 @@
         });
         globeObserver.observe(aboutSection);
 
-        // Contact Button - Navigate to contact page
+        // Contact Button
         const contactBtn = document.getElementById('contact-btn');
         contactBtn.addEventListener('click', () => {
             window.location.href = 'contact.html';
         });
 
-        // Dark/Light Mode Toggle
+        // Dark and Light Mode Toggle
         const themeToggle = document.getElementById('theme-toggle');
         const isDarkMode = localStorage.getItem('theme') === 'light' ? false : true;
 
