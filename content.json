@@ -1,0 +1,657 @@
+{
+  "name": "Kanishk Sasikumar",
+  "tagline": "Student. Builder. Innovator.",
+  "introduction": "High school senior / Technology, business & entrepreneurship",
+  "location": "Bentonville, Arkansas",
+  "email": "kanishksasi1@gmail.com",
+  "phone": "740-602-8132",
+  "phoneHref": "tel:+17406028132",
+  "github": "https://github.com/Kanishksasi",
+  "about": "I'm a high school senior interested in technology, business, and entrepreneurship, and in filling the gaps from education to health care. From building iOS apps and AI hackathon projects to competing at DECA internationals and advising on multi-agent AI systems, I'm constantly exploring how computer science can solve real-world problems. Currently a Technical Advisor at HTA, VP of Competition in DECA, and a peer tutor to 22+ students across 7 countries.",
+  "projects": [
+    {
+      "id": "investo",
+      "name": "Investo",
+      "category": "Software",
+      "featured": true,
+      "subtitle": "Financial education",
+      "status": "App Store",
+      "description": "Built for ages 8–18 — useful at any age. 30 bite-sized lessons on budgeting, credit, investing, taxes, debt & more.",
+      "tags": [
+        "iOS",
+        "Education",
+        "AI"
+      ],
+      "contribution": "Co-founder and sole technical developer of the Swift iOS app.",
+      "challenge": "",
+      "learning": "",
+      "results": "Available on the App Store. 6th place, Independent Business Plan, DECA internationals (ICDC 2026).",
+      "links": [
+        {
+          "label": "App Store",
+          "url": "https://apps.apple.com/us/app/investo-finance-ed/id6761702116"
+        },
+        {
+          "label": "Website",
+          "url": "https://investo-finance.xyz"
+        },
+        {
+          "label": "Website source",
+          "url": "https://github.com/Kanishksasi/Investo"
+        }
+      ],
+      "images": [
+        {
+          "src": "assets/investo-home.jpg",
+          "alt": "Investo home screen from its App Store listing"
+        },
+        {
+          "src": "assets/investo-lessons.jpg",
+          "alt": "Investo lesson screen from its App Store listing"
+        }
+      ],
+      "source": "Investo/index.html and public App Store listing; role and ICDC result from Kanishk's public LinkedIn. Website URL supplied by Kanishk. Repository contains the product website, not the iOS app source."
+    },
+    {
+      "id": "prepxa",
+      "name": "Bruxel Academy",
+      "category": "Software",
+      "featured": true,
+      "subtitle": "Education / Founder & CEO",
+      "status": "Education venture",
+      "description": "Founded Bruxel Academy LLC. Projects: Prepxa and LearnTeachArt.",
+      "products": [
+        {"name": "Prepxa", "description": "Prepxa connects students with verified SAT & ACT tutors. Book sessions, pay securely, and meet over video — all in one safe iOS app by Bruxel Academy LLC.", "url": "https://kanishksasi.github.io/Prepxa/"},
+        {"name": "LearnTeachArt", "description": "Connect with background-verified, vetted artists for live, personalized instruction in both traditional and AI-powered digital art. Every teacher is reviewed by Bruxel Academy before being approved to teach. Every session is scheduled, paid, and attended entirely through the app.", "details": ["Browse and book background-verified art teachers — every teacher is reviewed and approved by Bruxel Academy before joining", "Schedule live sessions on specific days and times that work for you", "Secure in-app payments — all transactions handled through the platform only", "All student-teacher communication stays within the app for safety and accountability", "Session recordings available to rewatch — revisit any lesson you attended at any time", "Rate and review your teacher after every session to maintain quality"], "status": "App Store · Coming Soon"}
+      ],
+      "tags": [
+        "iOS",
+        "Education",
+        "Web"
+      ],
+      "contribution": "Led iOS app development using Swift to manage users, scheduling, and session tracking.",
+      "challenge": "",
+      "learning": "",
+      "results": "",
+      "links": [
+        {
+          "label": "Bruxel Academy website",
+          "url": "https://bruxelacademy.com"
+        },
+        {
+          "label": "Prepxa website",
+          "url": "https://kanishksasi.github.io/Prepxa/"
+        },
+        {
+          "label": "Website source",
+          "url": "https://github.com/Kanishksasi/Prepxa"
+        },
+        {
+          "label": "SAT practice",
+          "url": "https://kanishksasi.github.io/Prepxa/practice.html"
+        }
+      ],
+      "images": [
+        {
+          "src": "assets/prepxa-home.jpg",
+          "alt": "Prepxa student home screen"
+        },
+        {
+          "src": "assets/prepxa-tutors.jpg",
+          "alt": "Prepxa Find a Tutor screen"
+        }
+      ],
+      "source": "Prepxa/index.html meta description and app screenshots; founder role and iOS development from the original portfolio. Kanishk confirmed the grouping, supplied bruxelacademy.com and the LearnTeachArt description, features, and coming-soon status."
+    },
+    {
+      "id": "talentiq",
+      "name": "TalentIQ",
+      "category": "AI",
+      "featured": true,
+      "subtitle": "Team project with J.B. Hunt",
+      "status": "Capstone prototype",
+      "description": "TalentIQ is a team project we developed with J.B. Hunt: a universal web app for career-fair candidate check-in and recruiter review. Candidates use the public form from a QR code; approved recruiters sign in with a TalentIQ email and password to review records, capture notes, verify AI-assisted drafts and interview questions, compare candidates, and download an Excel workbook.",
+      "tags": [
+        "JavaScript",
+        "AI",
+        "Web"
+      ],
+      "contribution": "",
+      "challenge": "",
+      "learning": "",
+      "results": "",
+      "links": [
+        {
+          "label": "Demo",
+          "url": "https://talentiq-candidate-check-in.ksasikumarme.chatgpt.site/"
+        },
+        {
+          "label": "Source",
+          "url": "https://github.com/Kanishksasi/TalentIQ"
+        },
+        {
+          "label": "Architecture",
+          "url": "https://github.com/Kanishksasi/TalentIQ/blob/main/web/README.md"
+        }
+      ],
+      "images": [
+        {
+          "src": "assets/talentiq.png",
+          "alt": "TalentIQ candidate check-in demo with an empty form"
+        }
+      ],
+      "note": "Synthetic data only. Public demo event code: DEMO. Recruiter access is restricted.",
+      "source": "TalentIQ/README.md; screenshot of the public demo. Kanishk confirmed that TalentIQ was a team project with J.B. Hunt. Individual contribution and results need confirmation."
+    },
+    {
+      "id": "chordclash",
+      "name": "Chord Clash",
+      "category": "Software",
+      "featured": true,
+      "subtitle": "Music theory / tower defense",
+      "status": "Playable web game",
+      "description": "Music Theory is unintuitive and painful to learn. But it doesn’t have to be! Chord Clash helps make it fun and exciting. Chord Clash is a game that trains people on recognizing and producing chords and chord progressions.",
+      "tags": [
+        "HTML",
+        "Game",
+        "Music"
+      ],
+      "contribution": "",
+      "challenge": "",
+      "learning": "",
+      "results": "",
+      "links": [
+        {
+          "label": "Play",
+          "url": "https://kanishksasi.github.io/ChordClash/"
+        },
+        {
+          "label": "Source",
+          "url": "https://github.com/Kanishksasi/ChordClash"
+        }
+      ],
+      "images": [
+        {
+          "src": "assets/chordclash.png",
+          "alt": "Chord Clash game menu with Play, Practice, Learn, and Create modes"
+        }
+      ],
+      "source": "ChordClash/README.md; screenshot of its public game. Individual contribution and results need confirmation."
+    },
+    {
+      "id": "crownscore",
+      "name": "CrownScore",
+      "description": "Privacy-first hair-progress tracking with guided photos, browser-based computer vision, and non-diagnostic guidance. Four-person team project for United Hacks V7.",
+      "category": "AI",
+      "featured": false,
+      "status": "Hackathon project",
+      "tags": ["Next.js", "TypeScript", "YOLOv8", "ONNX Runtime Web"],
+      "contribution": "",
+      "challenge": "",
+      "learning": "",
+      "results": "",
+      "links": [{"label": "LinkedIn project profile", "url": "https://www.linkedin.com/in/kanishk-sasikumar"}],
+      "images": [],
+      "source": "Kanishk's public LinkedIn project listing, July 2026. Team-level overview only; individual ownership and build reflections still needed."
+    },
+    {
+      "id": "clarifai",
+      "name": "ClarifAI – AI Relationship Mediation",
+      "description": "Developed an AI-powered application with peers that helps mediate relationship problems. Delivered a functional prototype during an intense 40+ hour hackathon weekend (United Hacks V6).",
+      "tags": [
+        "AI",
+        "Hackathon",
+        "Problem-solving",
+        "Teamwork"
+      ],
+      "category": "AI",
+      "featured": false,
+      "contribution": "",
+      "challenge": "",
+      "learning": "",
+      "results": "Delivered a functional prototype during an intense 40+ hour hackathon weekend (United Hacks V6).",
+      "links": [],
+      "images": [],
+      "source": "Original KanishkPortfolio/index.html. Add personal contribution, challenge, learning, results, and artifact links in your own words."
+    },
+    {
+      "id": "lawgic",
+      "name": "Lawgic AI – AI Legal Assistance App",
+      "description": "Developed an AI-powered application addressing legal accessibility challenges at United Hacks V5 (40+ hour hackathon). Built a functional AI Lawyer tool using rapid prototyping.",
+      "tags": [
+        "AI",
+        "Hackathon",
+        "Rapid Prototyping",
+        "Legal Tech"
+      ],
+      "category": "AI",
+      "featured": false,
+      "contribution": "",
+      "challenge": "",
+      "learning": "",
+      "results": "Built a functional AI Lawyer tool using rapid prototyping.",
+      "links": [],
+      "images": [],
+      "source": "Original KanishkPortfolio/index.html. Add personal contribution, challenge, learning, results, and artifact links in your own words."
+    },
+    {
+      "id": "course-compass",
+      "name": "Congressional App Challenge – Course Compass",
+      "description": "Ideated and developed Course Compass, an all-in-one student app, with peers using Swift. Currently discussing potential deployment with the school district.",
+      "tags": [
+        "Swift",
+        "iOS",
+        "Innovation",
+        "Teamwork"
+      ],
+      "category": "Software",
+      "featured": false,
+      "contribution": "",
+      "challenge": "",
+      "learning": "",
+      "results": "Currently discussing potential deployment with the school district.",
+      "links": [],
+      "images": [],
+      "source": "Original KanishkPortfolio/index.html. Add personal contribution, challenge, learning, results, and artifact links in your own words."
+    },
+    {
+      "id": "bentonville-traffic",
+      "name": "City of Bentonville Traffic Optimization",
+      "description": "Built a data-driven traffic simulation model to reduce congestion using Python (Pandas, NumPy). Presented recommendations to city planners.",
+      "tags": [
+        "Python",
+        "Data Analysis",
+        "NumPy",
+        "Pandas"
+      ],
+      "category": "Research",
+      "featured": false,
+      "contribution": "Built a data-driven traffic simulation model to reduce congestion using Python (Pandas, NumPy).",
+      "challenge": "",
+      "learning": "",
+      "results": "Presented recommendations to city planners.",
+      "links": [],
+      "images": [],
+      "source": "Original KanishkPortfolio/index.html. Add personal contribution, challenge, learning, results, and artifact links in your own words."
+    },
+    {
+      "id": "obu-research",
+      "name": "Cybersecurity Research Project (with OBU)",
+      "description": "Conducted vulnerability analysis on web applications in collaboration with Oklahoma Baptist University. Developed mitigation strategies and a technical report.",
+      "tags": [
+        "Cybersecurity",
+        "Research",
+        "Vulnerability Analysis"
+      ],
+      "category": "Research",
+      "featured": false,
+      "contribution": "Conducted vulnerability analysis on web applications in collaboration with Oklahoma Baptist University.",
+      "challenge": "",
+      "learning": "",
+      "results": "Developed mitigation strategies and a technical report.",
+      "links": [],
+      "images": [],
+      "source": "Original KanishkPortfolio/index.html. Add personal contribution, challenge, learning, results, and artifact links in your own words."
+    },
+    {
+      "id": "rfid-retail",
+      "name": "Zebra Technologies RFID Retail Innovation",
+      "description": "Proposed an RFID-based system to optimize inventory management and in-store customer flow using data analytics and operational modeling.",
+      "tags": [
+        "RFID",
+        "Data Analytics",
+        "3D Design"
+      ],
+      "category": "Research",
+      "featured": false,
+      "contribution": "",
+      "challenge": "",
+      "learning": "",
+      "results": "",
+      "links": [],
+      "images": [],
+      "source": "Original KanishkPortfolio/index.html. Add personal contribution, challenge, learning, results, and artifact links in your own words."
+    },
+    {
+      "id": "sensory-room",
+      "name": "Sensory Room Design Project",
+      "description": "Designed a 3D simulated sensory room to support students with special needs. Focused on accessibility, inclusion, and cost-effective resource allocation.",
+      "tags": [
+        "3D Design",
+        "Accessibility",
+        "Teamwork"
+      ],
+      "category": "Community",
+      "featured": false,
+      "contribution": "",
+      "challenge": "",
+      "learning": "",
+      "results": "",
+      "links": [],
+      "images": [],
+      "source": "Original KanishkPortfolio/index.html. Add personal contribution, challenge, learning, results, and artifact links in your own words."
+    },
+    {
+      "id": "icanwa",
+      "name": "Website Developer – ICANWA",
+      "description": "Built a production-ready MVP website for the Indian Cultural Association of Northwest Arkansas. Trained stakeholders on deployment and content management.",
+      "tags": [
+        "Web Dev",
+        "HTML/CSS",
+        "Community"
+      ],
+      "category": "Community",
+      "featured": false,
+      "contribution": "Built a production-ready MVP website for the Indian Cultural Association of Northwest Arkansas.",
+      "challenge": "",
+      "learning": "",
+      "results": "Trained stakeholders on deployment and content management.",
+      "links": [],
+      "images": [],
+      "source": "Original KanishkPortfolio/index.html. Add personal contribution, challenge, learning, results, and artifact links in your own words."
+    }
+  ],
+  "experience": [
+    {
+      "name": "Ignite Professional Studies",
+      "role": "Ignite Leadership Team",
+      "dates": "Present",
+      "description": "Student leadership alongside the Technology Strand."
+    },
+    {
+      "name": "HTA",
+      "role": "Technical Advisor",
+      "dates": "January 2026 – Present",
+      "description": "Advising development team on multi-agent system architecture and design patterns. Providing technical consultation on AI model selection, prompt engineering best practices, and agent behavior optimization."
+    },
+    {
+      "name": "Walton Arts Center & Walmart AMP",
+      "role": "Data Analyst Intern",
+      "dates": "January 2026 – Present",
+      "description": "Work with senior Data Engineer pulling data from business apps into Snowflake data warehouse. Leverage PowerBI to provide the business with dashboards and actionable data insights."
+    },
+    {
+      "name": "NYX Venture",
+      "role": "Venture Capital Analyst Intern",
+      "dates": "July 2025 – August 2025",
+      "description": "Analyzed 15+ startups evaluating business models, growth potential, and market opportunities. Prepared pitch decks for investor presentations."
+    },
+    {
+      "name": "Bruxel Academy LLC",
+      "role": "Founder / CEO",
+      "dates": "April 2024 – Present",
+      "description": "Built and launched an education platform. Led iOS app development using Swift to manage users, scheduling, and session tracking."
+    },
+    {
+      "name": "Indian Cultural Association of NWA (ICANWA)",
+      "role": "Website Developer",
+      "dates": "March 2025 – June 2025",
+      "description": "Built a production-ready MVP website. Trained stakeholders on deployment, content updates, and basic maintenance workflows."
+    },
+    {
+      "name": "Schoolhouse.world",
+      "role": "Peer Tutor",
+      "dates": "January 2025 – Present",
+      "description": "Delivered 25+ hours of peer tutoring to 22+ students across 7 countries. Certified in CS (Java, Python), SAT Math, AP Precalculus, Social Studies, and Languages."
+    },
+    {
+      "name": "CollegeBoard",
+      "role": "BigFuture Ambassador",
+      "dates": "September 2025 – Present",
+      "description": "Promoted college readiness resources and scholarship opportunities to peers. Worked personally with peers on financial aid and college applications."
+    },
+    {
+      "name": "Bentonville High School Science Olympiad",
+      "role": "VP of Physics & Chemistry",
+      "dates": "May 2025 – May 2026",
+      "description": "Competed in state-level Science Olympiad events. Created resources and supported students for event preparation."
+    },
+    {
+      "name": "Bentonville High School DECA",
+      "role": "VP of Competition",
+      "dates": "Present",
+      "description": "Assigned members to competitive events, conducted mock interviews and presentation practice sessions, and reviewed written entries with constructive feedback."
+    },
+    {
+      "name": "Bentonville High School DECA",
+      "role": "Competition Representative",
+      "dates": "May 2025 – May 2026",
+      "description": ""
+    },
+    {
+      "name": "UP.Summit",
+      "role": "Volunteer",
+      "dates": "September 2025",
+      "description": "Event coordination and attendee support."
+    },
+    {
+      "name": "CARE Community Center",
+      "role": "Student Volunteer",
+      "dates": "September 2023",
+      "description": "Toy-distribution support."
+    }
+  ],
+  "education": [
+    {
+      "title": "Computer Science & Business Focus",
+      "type": "High School Senior",
+      "school": "Bentonville High School · Expected May 2027",
+      "description": "AP CS A, AP CS Principles, AP Statistics, AP PreCalculus, AP Macro/Microeconomics, AP World History, AP Govt & Politics. Active in Science Olympiad, DECA, and Ignite Professional Studies (Technology Strand).",
+      "tags": [
+        "CS",
+        "Business",
+        "Math",
+        "AP Scholar with Distinction"
+      ]
+    },
+    {
+      "title": "Swift iOS Development",
+      "type": "Concurrent",
+      "school": "Arkansas State University",
+      "description": "Intensive hands-on training in iOS application development (DIGI 2003, DIGI 3003 & DIGI 4003), UI/UX design principles, and Swift programming best practices.",
+      "tags": [
+        "Swift",
+        "iOS",
+        "UI/UX"
+      ]
+    },
+    {
+      "title": "Data Science, English, Business & CS Courses",
+      "type": "Concurrent",
+      "school": "Northwest Arkansas Community College (NWACC)",
+      "description": "Currently taking Data Science 1003 and 1001. ENGL 1013 Composition I, PROG 1003 Intro Programming Logic, PROG 1403 Programming Logic II, and BADM Business Management. College-level writing, business, and programming fundamentals.",
+      "tags": [
+        "Writing",
+        "Python",
+        "Logic",
+        "Business Mgmt",
+        "Data Science"
+      ]
+    },
+    {
+      "title": "Harvard Undergraduate Ventures Tech Summer Program",
+      "type": "Summer Program",
+      "school": "Harvard John A. Paulson School of Engineering & Applied Sciences · July–Aug 2025",
+      "description": "Selected participant focused on technology, entrepreneurship, and innovation. Collaborated on venture-style projects with iterative design methodologies.",
+      "tags": [
+        "Entrepreneurship",
+        "VC",
+        "Innovation"
+      ]
+    },
+    {
+      "title": "Skills for Success",
+      "type": "Leadership Development",
+      "school": "Dale Carnegie Training program",
+      "description": "Communication, leadership, and interpersonal skills.",
+      "tags": ["Leadership", "Communication"]
+    }
+  ],
+  "awards": [
+    {
+      "name": "DECA Internationals — 6th Place",
+      "description": "Independent Business Plan · ICDC 2026 · Investo",
+      "featured": true
+    },
+    {
+      "name": "Computer Science Student of Distinction",
+      "description": "State Winner · Arkansas Academy of Computing · May 2026",
+      "featured": true
+    },
+    {
+      "name": "IdeaFame Pitch Competition",
+      "description": "$1,000 prize · April 2024",
+      "featured": true
+    },
+    {
+      "name": "Arkansas Statesman Award",
+      "description": "SkillsUSA · April 2026",
+      "featured": true
+    },
+    {
+      "name": "National Recognition Program",
+      "description": "College Board · August 2025",
+      "featured": true
+    },
+    {
+      "name": "Seal of Biliteracy",
+      "description": "Tamil · Arkansas · April 2024",
+      "featured": true
+    },
+    {
+      "name": "SkillsUSA – Job Interview",
+      "description": "3rd Place · Arkansas State · April 2026",
+      "featured": true
+    },
+    {
+      "name": "ACM HogHacks – Best Implementation",
+      "featured": true,
+      "description": "1st Place out of 34+ teams · UARK ACM · Apr 2026 · Evaluated by J.B. Hunt & SupplyPike judges on technical complexity, originality & execution within a 24-hour sprint"
+    },
+    {
+      "name": "DECA State Champion",
+      "featured": true,
+      "description": "1st Place – Arkansas State Start-up Business Plan · Qualified for ICDC 2024"
+    },
+    {
+      "name": "DECA State Runner-Up (×2)",
+      "featured": true,
+      "description": "Arkansas 2nd Place: Growth Business Plan (2025) & Independent Business Plan (2026) · Qualified for DECA internationals"
+    },
+    {
+      "name": "Science Olympiad – State 1st Place",
+      "featured": true,
+      "description": "1st Place in Ecology & Chemistry Lab · Arkansas State · 10th Grade"
+    },
+    {
+      "name": "AP Scholar with Distinction",
+      "featured": true,
+      "description": "Earned for outstanding performance across multiple AP examinations"
+    },
+    {
+      "name": "Harvard Tech Summer Program",
+      "description": "Selected participant – Harvard John A. Paulson School of Engineering & Applied Sciences · 2025"
+    },
+    {
+      "name": "Congressional App Challenge",
+      "description": "Course Compass – iOS student app; currently in discussions for school district deployment"
+    },
+    {
+      "name": "Schoolhouse.world Certified Tutor",
+      "description": "25+ tutoring hours · 22+ students across 7 countries · Certified in CS, SAT Math, AP Precalculus"
+    },
+    {
+      "name": "Cybersecurity Research",
+      "description": "Collaborative web vulnerability research with Oklahoma Baptist University"
+    },
+    {
+      "name": "Data Analytics – City Project",
+      "description": "Traffic optimization model presented to Bentonville city planners"
+    },
+    {
+      "name": "United Hacks V5 & V6",
+      "description": "Built AI-powered prototypes (Lawgic AI & ClarifAI) in 40+ hour hackathons"
+    },
+    {
+      "name": "NYX Venture VC Internship",
+      "description": "Analyzed 15+ startups; prepared investor pitch decks as VC Analyst Intern · Summer 2025"
+    }
+  ],
+  "skills": [
+    {
+      "title": "Languages",
+      "items": [
+        "Swift",
+        "Python",
+        "Java",
+        "HTML/CSS",
+        "JavaScript",
+        "SQL"
+      ]
+    },
+    {
+      "title": "Tools & Frameworks",
+      "items": [
+        "Xcode",
+        "SwiftUI",
+        "GitHub",
+        "PowerBI",
+        "Snowflake",
+        "Pandas",
+        "NumPy",
+        "Netlify",
+        "Replit"
+      ]
+    },
+    {
+      "title": "Certifications",
+      "items": [
+        "Schoolhouse CS Certified",
+        "AWS Certified Cloud Practitioner",
+        "IT Specialist: Python",
+        "IT Specialist: Computational Thinking",
+        "Microsoft Office Specialist: Word & PowerPoint"
+      ]
+    },
+    {
+      "title": "Additional Training",
+      "items": ["Machine Learning Foundations", "Java Algorithms", "Java: Data Structures", "Google Gemini", "CEO Excellence", "Managing Your Time"]
+    },
+    {
+      "title": "Spoken Languages",
+      "items": ["English", "Tamil", "Spanish"]
+    }
+  ],
+  "online": [
+    {
+      "label": "LinkedIn",
+      "detail": "Kanishk Sasikumar",
+      "url": "https://www.linkedin.com/in/kanishk-sasikumar"
+    },
+    {
+      "label": "GitHub",
+      "detail": "Kanishksasi",
+      "url": "https://github.com/Kanishksasi"
+    },
+    {
+      "label": "AP Computer Science A",
+      "detail": "Java coursework",
+      "url": "https://github.com/Kanishksasi/APCSA-Portfolio"
+    },
+    {
+      "label": "Museum companion concept",
+      "detail": "Prototype source and research brief",
+      "url": "https://github.com/Kanishksasi/AskRosie-Prototype"
+    },
+    {
+      "label": "Investo on Instagram",
+      "detail": "@investo.team",
+      "url": "https://www.instagram.com/investo.team/"
+    },
+    {
+      "label": "Investo on LinkedIn",
+      "detail": "Company updates",
+      "url": "https://www.linkedin.com/company/investo-finance/"
+    }
+  ]
+}

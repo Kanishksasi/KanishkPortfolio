@@ -1,0 +1,13 @@
+{
+  "name": "kanishk-portfolio",
+  "private": true,
+  "scripts": {
+    "build": "node bundle-studio.mjs && node build.mjs",
+    "build:content": "node build.mjs",
+    "check:content": "node build.mjs --check-content"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "three": "0.186.1"
+  }
+}
