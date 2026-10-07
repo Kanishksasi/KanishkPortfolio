@@ -108,6 +108,8 @@ p { overflow-wrap: anywhere; }
 .project-card-body { grid-column: 1; grid-row: 1; min-width: 0; padding-block: 12px; }
 .project-reverse .media-link { grid-column: 1; }
 .project-reverse .project-card-body { grid-column: 2; }
+.project-card.project-no-media { grid-template-columns: minmax(0, 1fr); }
+.project-no-media .project-card-body { grid-column: 1; max-width: 760px; }
 .project-media { height: 470px; overflow: hidden; position: relative; }
 .project-media.phone-screens { --phone-height: 395px; display: flex; justify-content: center; align-items: center; gap: 28px; padding: 24px; background: #e1edbd; }
 .phone-device { display: block; position: relative; height: var(--phone-height); aspect-ratio: 0.475; flex-shrink: 0; padding: 7px; background: #141615; border: 2px solid #626861; border-radius: 30px; box-shadow: 0 0 0 1px #181a18, inset 0 0 0 1px #a6aba2, 0 22px 30px -12px #17201450; transition: transform .5s cubic-bezier(.22,1,.36,1), box-shadow .5s ease; }

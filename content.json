@@ -108,9 +108,9 @@
       "name": "TalentIQ",
       "category": "AI",
       "featured": true,
-      "subtitle": "Team project with J.B. Hunt",
+      "subtitle": "Career-fair candidate check-in",
       "status": "Capstone prototype",
-      "description": "TalentIQ is a team project we developed with J.B. Hunt: a universal web app for career-fair candidate check-in and recruiter review. Candidates use the public form from a QR code; approved recruiters sign in with a TalentIQ email and password to review records, capture notes, verify AI-assisted drafts and interview questions, compare candidates, and download an Excel workbook.",
+      "description": "TalentIQ is a team project: a universal web app for career-fair candidate check-in and recruiter review. Candidates use the public form from a QR code; approved recruiters sign in with a TalentIQ email and password to review records, capture notes, verify AI-assisted drafts and interview questions, compare candidates, and download an Excel workbook.",
       "tags": [
         "JavaScript",
         "AI",
@@ -120,28 +120,10 @@
       "challenge": "",
       "learning": "",
       "results": "",
-      "links": [
-        {
-          "label": "Demo",
-          "url": "https://talentiq-candidate-check-in.ksasikumarme.chatgpt.site/"
-        },
-        {
-          "label": "Source",
-          "url": "https://github.com/Kanishksasi/TalentIQ"
-        },
-        {
-          "label": "Architecture",
-          "url": "https://github.com/Kanishksasi/TalentIQ/blob/main/web/README.md"
-        }
-      ],
-      "images": [
-        {
-          "src": "assets/talentiq.png",
-          "alt": "TalentIQ candidate check-in demo with an empty form"
-        }
-      ],
-      "note": "Synthetic data only. Public demo event code: DEMO. Recruiter access is restricted.",
-      "source": "TalentIQ/README.md; screenshot of the public demo. Kanishk confirmed that TalentIQ was a team project with J.B. Hunt. Individual contribution and results need confirmation."
+      "links": [],
+      "images": [],
+      "note": "Capstone prototype using synthetic data only.",
+      "source": "TalentIQ/README.md. Public screenshot and prototype links removed pending a branding review. Individual contribution and results need confirmation."
     },
     {
       "id": "chordclash",
@@ -353,6 +335,12 @@
   ],
   "experience": [
     {
+      "name": "SkillsUSA Bentonville High School Chapter",
+      "role": "Vice President",
+      "dates": "Present",
+      "description": ""
+    },
+    {
       "name": "Ignite Professional Studies",
       "role": "Ignite Leadership Team",
       "dates": "Present",
@@ -526,7 +514,7 @@
     {
       "name": "ACM HogHacks – Best Implementation",
       "featured": true,
-      "description": "1st Place out of 34+ teams · UARK ACM · Apr 2026 · Evaluated by J.B. Hunt & SupplyPike judges on technical complexity, originality & execution within a 24-hour sprint"
+      "description": "1st Place out of 34+ teams · UARK ACM · Apr 2026 · Evaluated on technical complexity, originality & execution within a 24-hour sprint"
     },
     {
       "name": "DECA State Champion",

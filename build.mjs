@@ -76,8 +76,8 @@ function media(project, prefix = '', openImages = false, eager = false) {
 }
 
 function featured(project, index) {
-  return `<article class="project-card project-${project.id} ${index % 2 ? 'project-reverse' : ''}" data-category="${escape(project.category)}" id="project-${project.id}">
-    <a class="media-link" href="projects/${project.id}.html" aria-label="View ${escape(project.name)} project">${media(project, '', false, index < 2)}</a>
+  return `<article class="project-card project-${project.id} ${index % 2 ? 'project-reverse' : ''} ${project.images.length ? '' : 'project-no-media'}" data-category="${escape(project.category)}" id="project-${project.id}">
+    ${project.images.length ? `<a class="media-link" href="projects/${project.id}.html" aria-label="View ${escape(project.name)} project">${media(project, '', false, index < 2)}</a>` : ''}
     <div class="project-card-body">
       <div class="project-meta"><span class="mono">0${index + 1} / ${escape(project.category)}</span><span class="status">${escape(project.status)}</span></div>
       <h3><a href="projects/${project.id}.html"><span style="view-transition-name: title-${project.id}">${escape(project.name)}</span>${icon('ArrowUpRight')}</a></h3>
@@ -85,7 +85,7 @@ function featured(project, index) {
       <p>${escape(project.description)}</p>${products(project)}${project.contribution ? `
       <p class="project-evidence"><span>My role</span>${escape(project.contribution)}</p>` : ''}
       ${tags(project.tags)}
-      <div class="project-actions"><a class="detail-link" href="projects/${project.id}.html">Project details${icon('ArrowRight')}</a>${external(project.links[0])}</div>
+      <div class="project-actions"><a class="detail-link" href="projects/${project.id}.html">Project details${icon('ArrowRight')}</a>${project.links.length ? external(project.links[0]) : ''}</div>
       <div class="source-links">${project.links.slice(1).map(link => external(link)).join('')}</div>
     </div>
   </article>`;

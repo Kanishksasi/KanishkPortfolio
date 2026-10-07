@@ -27,7 +27,7 @@ Each project has `contribution`, `challenge`, `learning`, `results`, and `links`
 
 Run `node build.mjs --check-content` to audit the four required narrative fields. This check intentionally fails while personal details are missing; it does not change the site. It checks completeness, not the truth of the claims.
 
-The Investo and Prepxa repositories linked on the site contain their websites, not the iOS application source. No adoption figures or individual responsibilities were inferred from repository ownership. Existing portfolio prose was preserved. The Chord Clash and TalentIQ product descriptions come from their READMEs; Kanishk confirmed TalentIQ was a team project with J.B. Hunt. Prepxa and Investo text comes from their existing sites.
+The Investo and Prepxa repositories linked on the site contain their websites, not the iOS application source. No adoption figures or individual responsibilities were inferred from repository ownership. Existing portfolio prose was preserved. The Chord Clash and TalentIQ product descriptions come from their READMEs. TalentIQ's public screenshot and prototype links are withheld pending a branding review. Prepxa and Investo text comes from their existing sites.
 
 The contact page retains the existing Formspree endpoint. A browser without JavaScript uses the standard form submission. Email and telephone links use the contact details in `content.json`. Updating the email in that file does not change the Formspree account's recipient; verify its inbox configuration and receipt with a real message before submitting. Automated checks use mocked responses and do not contact you.
 
@@ -42,6 +42,6 @@ See the accompanying submission checklist for the personal details still needed.
 - `Profilepic.png`: existing portfolio portrait.
 - Prepxa images: original screenshots from `Kanishksasi/Prepxa`.
 - Investo images: public App Store screenshots for app `6761702116`.
-- TalentIQ and Chord Clash images: screenshots of the linked public demos.
+- Chord Clash image: screenshot of the linked public demo.
 - Local icon definitions: Lucide, ISC license; see `assets/LUCIDE-LICENSE`.
 - Three.js: MIT license; see `assets/THREE-LICENSE`.
